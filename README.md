@@ -12,7 +12,7 @@ i18n
 ```
 
 Using this plugin will create the following JSON file:
-```json
+```
 {
   // Content of global.yml as JSON
   ...
