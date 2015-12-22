@@ -1,0 +1,17 @@
+{
+  "name": "gulp-yaml-dirs",
+  "version": "1.0.0",
+  "description": "Create YAML from a directory structure",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre-Eric Marchandet <pemarchandet@gmail.com> (http://pem-musing.blogspot.fr/)",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "gulp-util": "^3.0.7",
+    "lodash": "^3.10.1",
+    "through2": "^2.0.0"
+  }
+}
