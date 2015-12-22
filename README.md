@@ -54,7 +54,7 @@ gulp.task 'i18n.build', ->
     # Concatenante YAML files and transform them into JSON
     .pipe yamlDirs i18n.temp
     # Separate translations into one file per locale
-    .pipe gp.i18nCompile '[locale].json', localePlaceholder: "[locale]"
+    .pipe gp.i18nCompile '[locale].json', localePlaceholder: '[locale]'
     # Set the proper extension required by TAPi18n
     .pipe gp.rename extname: '.i18n.json'
     .pipe gulp.dest i18n.dest
