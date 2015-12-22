@@ -26,6 +26,7 @@
   "dependencies": {
     "coffee-script": "^1.10.0",
     "gulp-util": "^3.0.7",
+    "js-yaml": "^3.4.6",
     "lodash": "^3.10.1",
     "through2": "^2.0.0"
   }
