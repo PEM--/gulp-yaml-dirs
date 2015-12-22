@@ -28,7 +28,7 @@ Using this plugin will create the following JSON file:
 ## Installation
 Install this plugin as a NPM development dependency:
 ```sh
-npm i -D
+npm i -D gulp-yaml-dirs
 ```
 
 ## Usage
