@@ -1,13 +1,28 @@
 {
   "name": "gulp-yaml-dirs",
   "version": "1.0.0",
-  "description": "Create YAML from a directory structure",
+  "description": "Create a JSON file from YAML file in a directory structure",
   "main": "index.coffee",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PEM--/gulp-yaml-dirs.git"
+  },
+  "keywords": [
+    "gulp",
+    "yaml",
+    "json",
+    "dir",
+    "directory"
+  ],
   "author": "Pierre-Eric Marchandet <pemarchandet@gmail.com> (http://pem-musing.blogspot.fr/)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PEM--/gulp-yaml-dirs/issues"
+  },
+  "homepage": "https://github.com/PEM--/gulp-yaml-dirs#readme",
   "dependencies": {
     "coffee-script": "^1.10.0",
     "gulp-util": "^3.0.7",
