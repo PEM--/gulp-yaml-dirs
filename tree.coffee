@@ -14,7 +14,7 @@ tree = (filepath, current = {}, firstNode = true) ->
   stats = fs.lstatSync filepath
   baseName = path.basename filepath
   # Current path is a directory
-  if stats.isDirectory()
+  if stats.isDirectory() or stats.isSymbolicLink()
     current[baseName] = {}
     (fs.readdirSync filepath).forEach (child) ->
       tree (path.join filepath, child), current[baseName], false

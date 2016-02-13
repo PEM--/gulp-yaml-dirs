@@ -1,1 +1,2 @@
+- 1.1.0: Follow symbolic link
 - 1.0.0: Initial release
